@@ -1,0 +1,66 @@
+{
+  "facebook_link": "https://www.facebook.com/ExchangeUnion/",
+  "linkedin_link": "https://www.linkedin.com/company-beta/18154224",
+  "angelist_link": "https://angel.co/exchange-union",
+  "twitter_link": "https://twitter.com/exchange_union",
+  "telegram_link": "https://t.me/exchangeunioncoin",
+  "slack_link": "https://exchange-union.slack.com/",
+  "blog_link": "",
+  "footer_resources": [
+    {
+      "titleTranslateKey": "HOW_IT_WORKS_FOOTER_TEXT",
+      "link": "/how_it_works",
+      "target": "_self"
+    },
+    {
+      "titleTranslateKey": "USE_CASES_FOOTER_TEXT",
+      "link": "/use_cases",
+      "target": "_self"
+    },
+    {
+      "titleTranslateKey": "XUC_FOOTER_TEXT",
+      "link": "/xuc",
+      "target": "_self"
+    },
+    {
+      "titleTranslateKey": "CAREERS_FOOTER_TEXT",
+      "link": "https://angel.co/exchange-union/jobs",
+      "target": "_blank"
+    },
+    {
+      "titleTranslateKey": "PRESS_FOOTER_TEXT",
+      "link": "/news",
+      "target": "_self"
+    }
+  ],
+  "time_line_list": [
+    {
+      "icon": 1,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM1_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM1_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM1_STAGE_TITLE",
+      "active": false
+    },
+    {
+      "icon": 2,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM2_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM2_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM2_STAGE_TITLE",
+      "active": true
+    },
+    {
+      "icon": 3,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM3_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM3_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM3_STAGE_TITLE",
+      "active": false
+    },
+    {
+      "icon": 4,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM4_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM4_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM4_STAGE_TITLE",
+      "active": false
+    }
+  ]
+}

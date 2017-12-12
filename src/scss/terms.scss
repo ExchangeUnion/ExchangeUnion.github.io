@@ -1,0 +1,49 @@
+@import "./sass-variable.scss";
+
+.teams{
+
+  .content{
+    @include content-size();
+  }
+
+  .header{
+    @include page-header();
+    @include page-banner('../resources/img/teams-banner.png');
+  }
+
+  .title{
+    padding-top: 20px;
+  }
+  .text{
+    .content{
+      padding-top: 10px;
+    }
+    p{
+      font-family: $font-family-body;
+      padding: 10px 0 40px 0;
+      line-height: 25px;
+      color: rgba(153, 153, 153, 1);
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .teams {
+    .text {
+      .content {
+        p{
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .teams {
+    .header {
+      background-size: 100% 100%;
+    }
+  }
+}

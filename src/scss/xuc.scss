@@ -1,0 +1,148 @@
+@import "./sass-variable.scss";
+
+.xuc{
+
+  .content{
+    @include content-size();
+  }
+
+  .header{
+    @include page-banner('../resources/img/xuc-banner2.png');
+    @include page-header;
+    padding: 65px 0;
+
+    .text{
+      max-width: 500px;
+    }
+
+    .xuc-text{
+      color: $xuc-header-color;
+      padding-right: 20px;
+    }
+  }
+
+  .overview{
+    @include part-common;
+    display: inline-block;
+
+    h2{
+      @include part-header-title;
+    }
+
+    p{
+      @include part-header-description;
+    }
+
+    .svg{
+
+      @include display-flex(row, nowrap, space-between, stretch, stretch);
+
+      &>div{
+        text-align: left;
+
+        p.subtitle{
+          padding-right: 40px;
+        }
+        span,
+        a{
+          width: 100%;
+          display: inline-block;
+        }
+
+        img{
+          max-width: 300px;
+        }
+      }
+    }
+
+    .info{
+      color: #999;
+      a{
+        color: #999;
+        text-decoration: none;
+
+        &:hover{
+          text-decoration: underline !important;
+        }
+      }
+    }
+
+    .links{
+      @include display-flex(column, wrap, center, center, center);
+      width: 33%;
+      float: left;
+      text-align: center;
+
+      p{
+        color: #999999;
+        font-size: 1.5rem;
+      }
+
+      a{
+        text-align: center;
+        img{
+          max-width: 150px;
+          margin-bottom: 20px;
+          transition: all 0.2s;
+        }
+
+        &:hover{
+          text-decoration: underline;
+
+          img{
+            transform: scale(1.05)
+          }
+        }
+      }
+
+
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 830px) {
+  .overview{
+    p{
+      padding: 0 20px !important;
+    }
+    img{
+      width: 97% !important;
+    }
+  }
+
+  .text{
+    font-size: 2rem;
+  }
+
+  .links{
+    width: 100% !important;
+
+
+    img{
+      width: auto !important;
+    }
+  }
+
+  .xuc .overview .svg {
+    padding: 0 10px;
+    @include display-flex(column, wrap, stretch, stretch, stretch);
+
+    .info{
+      span{
+
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: 1920px){
+  .xuc {
+
+    .header {
+      background-size: 100% 100%;
+    }
+  }
+}

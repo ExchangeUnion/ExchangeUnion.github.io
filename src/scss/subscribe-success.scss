@@ -1,0 +1,38 @@
+@import "./sass-variable.scss";
+
+.success{
+  background-image: url("../resources/img/home-banner.png");
+  background-size: 100% 100%;
+  text-align: center;
+  min-height: 80vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+
+  .close{
+    position: absolute;
+    right: 30%;
+    top: 25%;
+    cursor: pointer;
+  }
+
+  .content{
+    @include content-size;
+    padding-top: 20%;
+
+    p{
+      color: #fff;
+      font-size: 1.25rem;
+      margin-top: 20px;
+    }
+  }
+}
+
+:global{
+  .subscribe-success{
+    overflow: hidden;
+  }
+}
