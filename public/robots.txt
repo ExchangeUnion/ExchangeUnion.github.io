@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /static/
-Sitemap: https://www.exchangeunion.com/sitemap.xml
