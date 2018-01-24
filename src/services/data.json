@@ -1,0 +1,190 @@
+{
+  "facebook_link": "https://www.facebook.com/ExchangeUnion/",
+  "linkedin_link": "https://www.linkedin.com/company-beta/18154224",
+  "angelist_link": "https://angel.co/exchange-union",
+  "twitter_link": "https://twitter.com/exchange_union",
+  "telegram_link": "https://t.me/exchangeunion",
+  "telegram_chinese_link":"https://t.me/joinchat/FK091kRGTbx5rtEoUuutTQ",
+  "slack_link": "https://exchange-union.slack.com/",
+  "blog_link": "",
+  "footer_blog_list": [
+    {
+      "titleTranslateKey": "LATEST_BLOG_POST_FOOTER_TITLE",
+      "descriptionTranslateKey": "LATEST_BLOG_POST_FOOTER_DESCRIPTION",
+      "link": "https://blog.exchangeunion.com/btc-and-bcc-market-analysis-8b0345f321dd"
+    },
+    {
+      "titleTranslateKey": "LATEST_PRESS_ARTICLE_FOOTER_TITLE",
+      "descriptionTranslateKey": "LATEST_PRESS_ARTICLE_FOOTER_DESCRIPTION",
+      "link": "https://www.cryptocoinsnews.com/digital-finance-group-one-leading-blockchain-digital-assets-focused-business-group/"
+    }
+  ],
+  "footer_resources": [
+    {
+      "titleTranslateKey": "HOW_IT_WORKS_FOOTER_TEXT",
+      "link": "/how_it_works",
+      "target": "",
+      "label":"HOW_IT_WORKS"
+    },
+    {
+      "titleTranslateKey": "USE_CASES_FOOTER_TEXT",
+      "link": "/use_cases",
+      "target": "",
+      "label":"USE_CASES"
+    },
+    {
+      "titleTranslateKey": "XUC_FOOTER_TEXT",
+      "link": "/xuc",
+      "target": "",
+      "label":"XUC"
+    },
+    {
+      "titleTranslateKey": "CAREERS_FOOTER_TEXT",
+      "link": "https://angel.co/exchange-union/jobs",
+      "target": "_blank",
+      "label":"CAREERS"
+    },
+    {
+      "titleTranslateKey": "PRESS_FOOTER_TEXT",
+      "link": "/news",
+      "target": "",
+      "label":"PRESS"
+    }
+  ],
+  "time_line_list": [
+    {
+      "icon": 1,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM1_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM1_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM1_STAGE_TITLE",
+      "active": true
+    },
+    {
+      "icon": 2,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM2_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM2_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM2_STAGE_TITLE",
+      "active": false
+    },
+    {
+      "icon": 3,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM3_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM3_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM3_STAGE_TITLE",
+      "active": false
+    },
+    {
+      "icon": 4,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM4_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM4_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM4_STAGE_TITLE",
+      "active": false
+    },
+    {
+      "icon": 5,
+      "dateTranslateKey": "HOME_PAGE_PART4_ITEM5_TITLE",
+      "titleTranslateKey": "HOME_PAGE_PART4_ITEM5_SUB_TITLE",
+      "stageTranslateKey": "HOME_PAGE_PART4_ITEM5_STAGE_TITLE",
+      "active": false
+    }
+  ],
+  "core_team": [
+    {
+      "nameTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER1_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER1_DESCRIPTION",
+      "positionTranslateKey":"TEAM_PAGE_CORE_TEAM_MEMBER1_TITLE",
+      "pictureName": "phots_james_wo.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER2_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER2_DESCRIPTION",
+      "positionTranslateKey":"TEAM_PAGE_CORE_TEAM_MEMBER2_TITLE",
+      "pictureName": "phots_terry_culver.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER3_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER3_DESCRIPTION",
+      "positionTranslateKey":"TEAM_PAGE_CORE_TEAM_MEMBER3_TITLE",
+      "pictureName": "phots_mikael_wang.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER4_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER4_DESCRIPTION",
+      "positionTranslateKey":"TEAM_PAGE_CORE_TEAM_MEMBER4_TITLE",
+      "pictureName": "phots_william_hou.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER5_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_CORE_TEAM_MEMBER5_DESCRIPTION",
+      "positionTranslateKey":"TEAM_PAGE_CORE_TEAM_MEMBER5_TITLE",
+      "pictureName": "phots_kilian.png"
+    }
+  ],
+  "advisors": [
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER1_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER1_DESCRIPTION",
+      "pictureName": "phots_brandan_eich.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER2_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER2_DESCRIPTION",
+      "pictureName": "phots_paul_chou.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER3_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER3_DESCRIPTION",
+      "pictureName": "phots_sathvik_vishwanath.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER4_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER4_DESCRIPTION",
+      "pictureName": "phots_sunny_ray.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER5_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER5_DESCRIPTION",
+      "pictureName": "phots_sebastian_serano.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER7_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER7_DESCRIPTION",
+      "pictureName": "phots_andrew_lee.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER8_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER8_DESCRIPTION",
+      "pictureName": "phots_ryan_x_charles.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER9_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER9_DESCRIPTION",
+      "pictureName": "phots_kevin_zhou.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER10_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER10_DESCRIPTION",
+      "pictureName": "phots_gabreil_kuman.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER12_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER12_DESCRIPTION",
+      "pictureName": "phots_Igor_telyatnikov.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER13_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER13_DESCRIPTION",
+      "pictureName": "phots_shenghong_wang.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER14_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER14_DESCRIPTION",
+      "pictureName": "phots_yonghong_fan.png"
+    },
+    {
+      "nameTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER15_NAME",
+      "descriptionTranslateKey": "TEAM_PAGE_ADVISORS_MEMBER15_DESCRIPTION",
+      "pictureName": "phots_star_xu.png"
+    }
+  ]
+}

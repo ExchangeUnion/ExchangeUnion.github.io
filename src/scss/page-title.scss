@@ -1,0 +1,14 @@
+.title{
+  padding-bottom: 15px;
+  position: relative;
+
+  span{
+    padding: 0 !important;
+    position: absolute;
+    border-bottom: 2px #ccc solid;
+    width: 120px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
