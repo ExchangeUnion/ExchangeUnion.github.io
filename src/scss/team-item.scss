@@ -1,0 +1,73 @@
+@import "./sass-variable.scss";
+
+.team-item{
+  color: #fff;
+  text-align: center;
+  width: 20%;
+  float: left;
+  height: 300px;
+
+  &.core:last-child{
+
+    img{
+      max-width: 120px;
+      padding:10px 0;
+    }
+
+
+  }
+
+  .main{
+    padding: 0 10px;
+  }
+
+  &.advisors{
+    width: 16.66%;
+    float: left;
+    height: 330px;
+
+    img{
+      max-width: 120px;
+      height: 113px;
+    }
+  }
+
+  h4{
+    font-family: $font-family-body;
+    font-size: $team-page-people-title-size;
+    color: $team-page-core-team-title-color;
+    margin: 10px 0 10px 0;
+    width: 100%;
+  }
+
+  &.advisors h4{
+    color: $team-page-advisors-title-color;
+    margin: 10px 0 20px 0;
+  }
+
+  p{
+    color: $team-page-people-description-color;
+    text-align: center;
+    font-size: $team-page-people-description-size;
+    font-family: $font-family-nav;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  p.position{
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .team-item {
+    width: 100%;
+    height: 100% !important;
+
+    &.advisors {
+      width: 100%;
+    }
+  }
+}

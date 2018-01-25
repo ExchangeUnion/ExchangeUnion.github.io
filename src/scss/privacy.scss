@@ -1,0 +1,59 @@
+@import "./sass-variable.scss";
+
+.privacy{
+
+  .content{
+    @include content-size();
+  }
+
+  .header{
+    @include page-banner('../resources/img/privacys-banner.png');
+    @include page-header();
+  }
+
+  .text{
+
+    div{
+      font-family: $font-family-body;
+      padding: 10px 0 40px 0;
+      line-height: 25px;
+      color: rgba(153, 153, 153, 1);
+      text-align: left;
+
+      h4{
+        color: #0D4C8C;
+      }
+
+      .list{
+        display: inline-block;
+        padding-left: 10px;
+        span{
+          display: inline-block;
+        }
+      }
+
+      a{
+        color: #2dabe2;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media screen and (max-width: 830px) {
+  .privacy {
+    .text {
+      .content {
+        div{
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1920px){
+  .privacy {
+    .header {
+      background-size: 100% 100%;
+    }
+  }
+}

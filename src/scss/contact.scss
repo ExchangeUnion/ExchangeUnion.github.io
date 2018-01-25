@@ -1,0 +1,134 @@
+@import "./sass-variable.scss";
+
+.contact{
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 400px;
+  height: 100%;
+
+  h1{
+    width: 100%;
+    font-size: 2.75rem;
+    color: rgba(45, 171, 226, 1);;
+  }
+
+  p{
+    font-size: 1rem;
+    color: #fff;
+    margin: 20px 0;
+  }
+
+  .icon{
+    a {
+      padding-right: 10px;
+    }
+  }
+
+  .success{
+    min-width: 280px;
+    min-height: 300px;
+    padding-top: 60%;
+    text-align: center;
+  }
+
+  .form{
+
+    .input-group{
+      @include display-flex(column, wrap, stretch, stretch, stretch);
+      width: 100%;
+      margin-bottom: 20px;
+
+      label{
+        color: #fff;
+        font-size: 1rem;
+        padding-bottom: 10px;
+      }
+
+      input{
+        line-height: 35px;
+        border: 0;
+      }
+
+      textarea{
+        min-height: 100px;
+      }
+
+      p{
+        margin: 5px 0;
+        padding: 0;
+        font-size: 0.75rem;
+        color: rgba(255, 0, 0, 1);
+      }
+    }
+
+    .line{
+      width: 100%;
+
+      .input-group{
+        width: 48.5%;
+        float: right;
+
+        &:first-child{
+          float: left;
+        }
+      }
+    }
+  }
+
+  button{
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(45, 171, 226, 1);
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+    height: 40px;
+
+    &>div {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  .error{
+    color: red;
+  }
+
+  .title-icon{
+
+    img{
+      margin: 0 5px -5px 5px;
+    }
+  }
+
+}
+
+:global{
+  .contact-over-flow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url("../resources/img/home-banner.png") center ;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contact {
+    min-width: 280px;
+  }
+
+  :global{
+    .contact-over-flow{
+      background-size: auto;
+    }
+  }
+}
+

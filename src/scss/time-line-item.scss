@@ -1,0 +1,60 @@
+@import "./sass-variable.scss";
+
+.time-line-item{
+  width: 210px;
+  height: 220px;
+  @include display-flex(column, nowrap, flex-start, center, center);
+  position: relative;
+  font-family: $font-family-nav;
+
+  h4{
+    color: $home-part2-text-color;
+    margin-top: 10px;
+  }
+
+  p{
+    font-size: $home-part4-sub-title-size;
+    color: $home-part4-sub-title-color;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+  }
+
+  .line{
+    width: 100%;
+    border-bottom: 1px $home-part4-line-border-color solid;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+
+    i:before{
+      content: '|';
+      color: $home-part4-line-border-color;
+    }
+
+    i.active:before{
+        color: $home-part2-text-color;
+    }
+  }
+
+  .state{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: $home-part4-sub-title-size;
+    &.active{
+      color: $home-part2-text-color;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .time-line-item{
+    width: 100% !important;
+  }
+
+  .line,
+  .state{
+    display: none !important;
+  }
+}

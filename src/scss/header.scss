@@ -1,0 +1,212 @@
+@import "./sass-variable.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 10px 0;
+  background-color: $header-bg-color;
+
+  .content{
+    @include content-size;
+    @include display-flex(row, wrap, space-between, stretch, stretch);
+  }
+
+  ul.navlinks {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+
+    li {
+      float: left;
+      padding: 8px 30px;
+    }
+
+  }
+
+  img{
+    max-height: 48px;
+  }
+
+
+  a{
+    color: $header-link-color-not-home;
+    font-size:0.8rem;
+    font-family: $font-family-nav;
+
+    &:hover{
+      color: $header-link-hover-color-not-home;
+      text-decoration: underline;
+    }
+
+  }
+
+  &.home{
+    background-color: $home-header-bg-color;
+    a {
+      color: $header-link-color;
+
+      &:hover{
+        color: $header-link-color;
+      }
+
+    }
+  }
+
+
+
+  .min{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+
+    span{
+      div{
+        position: absolute;
+        right: -3px;
+        top: -4px;
+      }
+    }
+  }
+
+
+  .navlinks{
+    top: -192px;
+  }
+
+  .navmin .navlinks{
+    position: absolute;
+    background-color: #fff;
+    top:67px;
+    right: 0;
+    left: 0;
+    margin: 0 !important;
+    display: block;
+    z-index: 10;
+    animation: showMinMenu 0.6s;
+    padding-bottom: 20px;
+
+    li{
+      float: right;
+      text-align: center;
+      width: 100%;
+      padding: 15px 0 !important;
+
+      a{
+        color: #2dabe2;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .close-menu .navmin .navlinks{
+    animation: closeMinMenu 0.6s;
+  }
+
+  .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px 0 0;
+    z-index: 10;
+  }
+
+  .logoLink{
+    display: inline-block;
+  }
+
+}
+
+
+
+:global{
+  .normal-logo{
+    display: block;
+  }
+
+  .writeicon{
+    position: absolute;
+    z-index: 99;
+  }
+
+
+  .scroll-logo{
+    display: none;
+  }
+
+  .scroll-header-style header {
+    background-color: #fff !important;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+
+    .normal-logo{
+      display: none;
+    }
+
+    .scroll-logo{
+      display: block;
+    }
+
+    .writeicon{
+      display: none !important;
+    }
+    a {
+      color: $header-link-color-not-home !important;
+
+      &:hover{
+        color: $header-link-hover-color-not-home !important;
+      }
+
+    }
+
+    .min-header{
+      background-color: transparent !important;
+    }
+  }
+
+  @keyframes showMinMenu
+  {
+    from {top:-500px;}
+    to {top:67px}
+  }
+
+  @keyframes closeMinMenu
+  {
+    from {top:67px;}
+    to {top:-500px}
+  }
+
+}
+
+@media screen and (max-width: 830px){
+  .min{
+    display: block !important;
+  }
+
+  :global {
+    .min-header {
+      height: 57px;
+      margin-top: -10px;
+      padding-top: 10px;
+      width: 100%;
+      position: relative;
+      z-index: 99;
+      background-color: #fff;
+    }
+
+    .home-min-header{
+
+      background-color: #1951A3;
+    }
+  }
+
+  .navlinks{
+    display: none;
+  }
+}
+
+
