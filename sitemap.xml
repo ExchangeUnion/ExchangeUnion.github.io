@@ -10,42 +10,42 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://www.exchangeunion.com/</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://www.exchangeunion.com/how_it_works</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://www.exchangeunion.com/use_cases</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <loc>https://www.exchangeunion.com/developer</loc>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://www.exchangeunion.com/xuc</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>https://www.exchangeunion.com/team</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://www.exchangeunion.com/news</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://www.exchangeunion.com/jobs</loc>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://www.exchangeunion.com/team</loc>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://www.exchangeunion.com/terms</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://www.exchangeunion.com/privacy</loc>
-        <lastmod>2017-11-20T20:01:59-08:00</lastmod>
+        <lastmod>2018-02-23T20:01:59-08:00</lastmod>
         <changefreq>daily</changefreq>
     </url>
 </urlset>
