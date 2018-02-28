@@ -52,7 +52,7 @@
     "COPYRIGHT_FOOTER_TEXT": "©2018 Exchange Union",
     "XUC_PAGE_PART1_TOKEN_CONTRACT": "Contract Address: 0xc324a2f6b05880503444451b8b27e6f9e63287cb",
     "DEVELOPER_LEARN_PART1_TITLE": "New to Exchange Union?",
-    "WHITE_PAPER_FOOTER_TEXT": "White Paper",
+    "WHITE_PAPER_FOOTER_TEXT": "White Paper (Overview)",
     "TEAM_PAGE_ADVISORS_MEMBER16_NAME": "David Lee",
     "XUC_PAGE_PART2_TABLE_TR3_TEXT1": "R&D",
     "HOME_PAGE_PART4_ITEM1_STAGE_TITLE": "Stage 1",
@@ -342,5 +342,6 @@
     "HOME_PAGE_PART4_TITLE": "Road Map of Exchange Union",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM1": "A month’s notice will be given if any funds are to be released from the addresses above, stating the usage each. ",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM2": "Maximum 5,000,000 XUC can be released per month, which is ensured by a smart contract controlling the above mentioned addresses.",
-    "XUC_PAGE_PART2_EXPLAINATION_ITEM3": "ERC20 token, no ICO, not classified as security."
+    "XUC_PAGE_PART2_EXPLAINATION_ITEM3": "ERC20 token, no ICO, not classified as security.",
+    "NOT_FOUND_PAGE_EXPRESSION": "¯\\_(ツ)_/¯"
 }
