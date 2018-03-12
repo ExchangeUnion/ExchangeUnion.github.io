@@ -86,7 +86,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + {"0":"2c38516b","1":"dbf11003","2":"7c0e33bf","3":"12218d75","4":"47399524","5":"9423ca0b","6":"723e3c53","7":"aa6b6d89","8":"c557a09d","9":"f183ece0","10":"03fa61b9"}[chunkId] + ".chunk.js";
+/******/ 		script.src = __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + {"0":"2c38516b","1":"dbf11003","2":"7c0e33bf","3":"b7875e96","4":"47399524","5":"9423ca0b","6":"723e3c53","7":"aa6b6d89","8":"c557a09d","9":"f183ece0","10":"03fa61b9"}[chunkId] + ".chunk.js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -26797,10 +26797,10 @@ var Footer = /** @class */ (function (_super) {
     __extends(Footer, _super);
     function Footer(props) {
         var _this = _super.call(this, props) || this;
-        _this.state = {
-            currentLanguage: window.navigator.language
-        };
-        _this.onChangeLanguageHandle = _this.onChangeLanguageHandle.bind(_this);
+        // this.state = {
+        //     currentLanguage : window.navigator.language
+        // };
+        // this.onChangeLanguageHandle = this.onChangeLanguageHandle.bind(this);
         _this.onLinkSocialPlatform = _this.onLinkSocialPlatform.bind(_this);
         _this.onResourceLink = _this.onResourceLink.bind(_this);
         _this.openModal = _this.openModal.bind(_this);
@@ -26810,15 +26810,15 @@ var Footer = /** @class */ (function (_super) {
         this.props.childProps.openModal();
         this.onResourceLink('contact');
     };
-    Footer.prototype.onChangeLanguageHandle = function (lang) {
-        if (typeof this.props.childProps.changeLanguage === 'function') {
-            this.props.childProps.changeLanguage.call(this, lang);
-            this.setState({
-                currentLanguage: lang
-            });
-            __WEBPACK_IMPORTED_MODULE_2_react_ga__["event"]({ category: 'Language', action: 'change', label: lang });
-        }
-    };
+    // onChangeLanguageHandle (lang) {
+    //     if (typeof this.props.childProps.changeLanguage === 'function') {
+    //         this.props.childProps.changeLanguage.call(this, lang);
+    //         this.setState({
+    //             currentLanguage: lang
+    //         });
+    //         ReactGA.event({category: 'Language', action: 'change', label: lang});
+    //     }
+    // }
     Footer.prototype.onLinkSocialPlatform = function (site) {
         __WEBPACK_IMPORTED_MODULE_2_react_ga__["event"]({ category: 'Social', action: 'linkClick', label: site });
     };
@@ -26832,7 +26832,7 @@ var Footer = /** @class */ (function (_super) {
         return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("footer", { className: style.footer },
             __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: style.content },
                 __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: style.subscribe },
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_3__components_subscribe__["a" /* default */], { i18n: i18n, lang: this.state.currentLanguage }))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_3__components_subscribe__["a" /* default */], { i18n: i18n, lang: lang }))),
             __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: style.content },
                 __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: style.column + " " + style['icon-list'] },
                     __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: homeLogo, title: 'exchange union', alt: 'exchange union' }),
