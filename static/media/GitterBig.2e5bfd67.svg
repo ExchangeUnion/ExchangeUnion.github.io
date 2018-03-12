@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="90px" viewBox="0 0 64 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3D89D9" offset="0%"></stop>
+            <stop stop-color="#5BBBF2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C_developer" transform="translate(-1018.000000, -1109.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M1036.75375,1124.00375 L1044.25,1124.00375 L1044.25,1199 L1036.75375,1199 L1036.75375,1124.00375 Z M1063,1124.00375 L1063,1199 L1055.5,1199 L1055.5,1124.00375 L1063,1124.00375 Z M1018,1109 L1025.50375,1109 L1025.50375,1165.25 L1018,1165.25 L1018,1109 Z M1074.25,1124.00375 L1081.75,1124.00375 L1081.75,1165.25 L1074.25,1165.25 L1074.25,1124.00375 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
