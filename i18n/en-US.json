@@ -344,5 +344,8 @@
     "XUC_PAGE_PART2_EXPLAINATION_ITEM1": "A month’s notice will be given if any funds are to be released from the addresses above, stating the usage each. ",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM2": "Maximum 5,000,000 XUC can be released per month, which is ensured by a smart contract controlling the above mentioned addresses.",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM3": "ERC20 token, no ICO, not classified as security.",
-    "NOT_FOUND_PAGE_EXPRESSION": "¯\\_(ツ)_/¯"
+    "NOT_FOUND_PAGE_EXPRESSION": "¯\\_(ツ)_/¯",
+    "TEAM_PAGE_PARTERNER_TYPE_T":"Technical",
+    "TEAM_PAGE_PARTERNER_TYPE_S":"Strategic",
+    "TEAM_PAGE_PARTERNER_TYPE_F":"Financial"
 }

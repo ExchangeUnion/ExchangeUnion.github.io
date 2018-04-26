@@ -344,5 +344,8 @@
     "XUC_PAGE_PART2_EXPLAINATION_ITEM1": "若以上地址资金被使用，将提前1个月发布提醒，并说明所有用途。",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM2": "XUC每月最大投放5,000,000个，这将由控制以上地址的智能合约保证。",
     "XUC_PAGE_PART2_EXPLAINATION_ITEM3": "- ERC20代币，无ICO，非证券。",
-    "NOT_FOUND_PAGE_EXPRESSION": "¯\\_(ツ)_/¯"
+    "NOT_FOUND_PAGE_EXPRESSION": "¯\\_(ツ)_/¯",
+    "TEAM_PAGE_PARTERNER_TYPE_T":"技术",
+    "TEAM_PAGE_PARTERNER_TYPE_S":"战略",
+    "TEAM_PAGE_PARTERNER_TYPE_F":"金融"
 }
